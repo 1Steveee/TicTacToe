@@ -15,7 +15,7 @@ public class Main {
 
         while ((totalTurns <= totalPossibleTurns) && !isThereAWinner){
             char currentPlayer = ticTacToe.getCurrentPlayer();
-            System.out.println("Make a board selection!");
+            System.out.println(currentPlayer + " " + " is making a selection now!");
 
             int space = scanner.nextInt();
             ticTacToe.pickSpace(space, currentPlayer);
