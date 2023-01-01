@@ -1,11 +1,8 @@
 package Game;
 
-import java.util.ArrayList;
-
 public class TicTacToe {
 
-    private char[] sequence = {' ',' ',' ', ' ', ' ', ' ', ' ', ' ', ' '};
-    private ArrayList<char[]> possibleSolutions = new ArrayList<char[]>();
+    private final char[] sequence = {' ',' ',' ', ' ', ' ', ' ', ' ', ' ', ' '};
 
     private char currentPlayer = 'X';
 
